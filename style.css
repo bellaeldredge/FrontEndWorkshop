@@ -19,18 +19,18 @@
 
     }
  h1 {
-    color: navy;
+    color: rgb(241, 101, 202);
     font-family: 'SeafordBold';
     text-align: center;
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color:rgb(241, 101, 202);
 }
 
   p.myP{
-    color: brown;
+    color: rgb(146, 0, 61);
     text-align: justify;
    text-justify: inter-word;
   }
@@ -71,18 +71,18 @@ ol li {
 }  
   ol li::before { 
     content:counter(num) "."; 
-    color: blue;     
+    color: rgb(255, 0, 179);     
 } 
 
 
 #mytable {
     font-family: SeafordRg;
     border-collapse: collapse;
-    width: 30%;
+    width: 50%;
   }
   
   #mytable td, #mytable th {
-    border: 1px solid #ddd;
+    border: 1px solid #f40bc2;
     padding: 8px;
   }
   
@@ -107,5 +107,5 @@ ol li {
  }
 
  .header{
-  
+
  }
